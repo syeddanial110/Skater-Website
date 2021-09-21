@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+   
+
+}
+body{
+    box-sizing: border-box;
+    /* height: 2000px; */
+    background-color: rgb(34, 33, 33);
+    overflow-x: hidden;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+ul{
+    background-color: black;
+    height: 60px;
+   
+}
+.list{
+    margin-top: 20px;
+    float: left;
+    list-style: none;
+    padding-left: 50px;
+}
+.tag{
+    margin-left: 150px;
+    text-decoration: none;    
+    color: white;
+    
+}
+.tag:hover{
+    color: orange;
+}
+.clearfix{
+    clear: both;
+}
+.bgImage{
+    background-image: url('skater 2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 1500px;
+    
+
+}
+.text{
+    background-color: rgba(119, 136, 153,0.5);
+    border-radius: 10px;
+    display: inline-block;
+    width: 550px;
+    height: 170px;
+    margin-top: 150px;
+    margin-left: 450px;
+}
+.bgText{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+.btn{
+    background-color: red;
+    padding: 9px;
+    border-radius: 18px;
+    color: white;
+    text-decoration: none;
+   
+}
+.serviceText{
+    color: rgb(255, 202, 67);
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 420px;
+}
+
+.skateIcon1{
+   font-size: 60px;
+   color: orange;
+}
+.skatesIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;
+    
+    margin-top: 60px;
+    margin-left: 350px;
+}
+
+.skateText{
+    color: white;
+}
+/* 
+.sideBySide{
+  
+} */
+.sideBySideContent{
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-around;
+    /* transition: opacity 1s ease-in-out; */
+
+}
+.skateimg{
+    justify-content: space-around;
+    margin-left: 25px;
+
+}
+.sideBySidePara{
+    /* flex: 3; */
+    padding: 40px;
+    color: white;
+}
+.sideBySideHead{
+    text-align: center;
+    padding: 25px;
+    color: orange;
+}
+
+/* 2 div */
+
+.sideBySideContent2{
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+.skateimg2{
+    justify-content: space-around;
+    margin-right: 60px;
+    order: 2;
+}
+.sideBySidePara2{
+    /* flex: 3; */
+    padding: 40px;
+    color: white;
+    
+
+}
+.sideBySideHead2{
+    text-align: center;
+    padding: 25px;
+    color: orange;
+}
+
+.Video{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.ourTeamDiv{
+    margin-top: 25px;
+}
+
+.ourTeamHead{
+    font-size: 50px;
+    text-align: center;
+    color: orange;
+}
+
+.ourTeamPara{
+    color: white;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.card{
+    float: left;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+.card1{
+    color: white;
+    background-color: rgba(128, 128, 128,00.5);
+
+}
+.cardimg{
+    width: 260px;
+    height: 250px;
+    border-radius: 50%;
+}
+.cardHead{
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+    margin-top: 15px;
+}
+.cardPara{
+    padding: 20px;  
+    text-align: center; 
+}
+.clearfix{
+    clear: both;
+}
+.Blog{
+    /* display: flex;
+    justify-content: center; */
+    /* float: left; */
+    margin-top: 475px;
+    /* height: 6000px; */
+
+}
+.blog1{
+    float: left;
+    margin-left: 30px;
+
+}
+.blogImg1{
+    height: 300px;
+    margin-left: 46px;
+}
+.blogHead1{
+    color: orange;
+    text-align: center;
+    margin-left: 35px;
+}
+.blogPara1{
+    color: white;
+    width: 450px;
+    margin-top: 15px;
+    margin-left: 60px;
+    
+}
+.readMore1{
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.clearfix{
+    clear: both;
+}
+.blog2{
+    float: left;
+}
+
+.blogImg2{
+    height: 300px;
+    margin-left: 90px;
+}
+.blogHead2{
+    color: orange;
+    margin-left: 110px;
+}
+.blogPara2{
+    color: white;
+    text-align: justify;
+    margin-left: 115px;
+    width: 450px;
+    margin-top: 15px;
+}
+.readMore2{
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
